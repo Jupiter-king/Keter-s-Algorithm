@@ -8,6 +8,8 @@ CoronaPolvo的PAT备考之路
 图最短路径算法
 - [ ] [Eratoshenes筛法](./code1/README.md)
 求解范围内所有素数
+- [ ] [A+B Format](./A+B_format/README.md)
+string format
 - [ ] [Floyed算法](./code4/README.md)
 无向图中的最短路径
 - [ ] [二进制编码格式的运用](./code2/README.md)
