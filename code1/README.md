@@ -1,3 +1,10 @@
+```
+name{Eratoshenes筛法}
+introduce{求解范围内所有素数}
+```
+
+
+
 # Eratoshenes筛法
 
 Eratoshenes筛选法是用来选择素数的算法。最佳的用法是用来筛选n以内的所有素数.

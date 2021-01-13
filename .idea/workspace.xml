@@ -11,7 +11,57 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dbab1e-cadc-4072-a666-a26548a5e733" name="Default Changelist" comment="" />
+    <list default="true" id="e1dbab1e-cadc-4072-a666-a26548a5e733" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/code1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/code2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/.idea/code3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/code3.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/cmake-build-debug/code3.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/code4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/floyed.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code4/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/code4/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimalPath/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/minimalPath/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +70,14 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="9c0efad5-d669-4350-9095-0d1919a533f1" />
   <component name="ProjectId" id="1kSJZCh41ENLz4W1oFz9TELSwxi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,6 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -37,14 +94,14 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arithmeticCodes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arithmeticCodes" TARGET_NAME="arithmeticCodes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arithmeticCodes" RUN_TARGET_NAME="arithmeticCodes">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arithmeticCodes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="arithmeticCodes" TARGET_NAME="arithmeticCodes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="arithmeticCodes" RUN_TARGET_NAME="arithmeticCodes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -57,6 +114,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605688113898</updated>
       <workItem from="1605688116348" duration="27000" />
+      <workItem from="1610458567572" duration="27000" />
+      <workItem from="1610536217244" duration="1836000" />
+      <workItem from="1610538683264" duration="95000" />
     </task>
     <servers />
   </component>

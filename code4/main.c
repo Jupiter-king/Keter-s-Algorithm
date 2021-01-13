@@ -49,15 +49,17 @@ void Floyd(int **matrix, int n) {
     }
     // 接下来判断医院建在哪里才是最短的
     int minID = 0;
-    int minSum = INFINIFY;
-    int sum;
+    int minLength = INFINIFY;
+    int max;
     for (v = 0; v < n; ++v) {
-        sum = 0;
+        max = 0;
+        // find max
         for (w = 0; w < n; ++w) {
-            sum += D[v][w];
+            if (max<D[v][w])
+                max = D[v][w];
         }
-        if (sum < minSum) {
-            minSum = sum;
+        if (max < minLength) {
+            minLength = max;
             minID = v;
         }
     }
@@ -77,7 +79,7 @@ int main() {
 // 输入样例
 /*
 6
-0 12 3 65535 9 10
+0 12 3 65535 9 10qq
 12 0 65535 2 6 65535
 3 65535 0 2 65535 6
 65535 2 2 0 4 7
