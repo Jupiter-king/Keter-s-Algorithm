@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="superEggDrop">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/superEggDrop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 superEggDrop"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="superEggDrop/fast">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/superEggDrop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 superEggDrop/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lengthOfLIS">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/lengthOfLIS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lengthOfLIS"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lengthOfLIS/fast">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/lengthOfLIS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lengthOfLIS/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coin_change">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/coin_change" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 coin_change"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coin_change/fast">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/coin_change" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 coin_change/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EditDistance">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/EditDistance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 EditDistance"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EditDistance/fast">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/EditDistance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 EditDistance/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fab">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/fab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 fab"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fab/fast">
+				<Option output="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/fab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 fab/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/keter/Documents/arithmeticCodes/DP/EditDistance.cpp">
+			<Option target="EditDistance"/>
+		</Unit>
+		<Unit filename="/Users/keter/Documents/arithmeticCodes/DP/coin_change.cpp">
+			<Option target="coin_change"/>
+		</Unit>
+		<Unit filename="/Users/keter/Documents/arithmeticCodes/DP/fab.cpp">
+			<Option target="fab"/>
+		</Unit>
+		<Unit filename="/Users/keter/Documents/arithmeticCodes/DP/lengthOfLIS.cpp">
+			<Option target="lengthOfLIS"/>
+		</Unit>
+		<Unit filename="/Users/keter/Documents/arithmeticCodes/DP/superEggDrop.cpp">
+			<Option target="superEggDrop"/>
+		</Unit>
+		<Unit filename="/Users/keter/Documents/arithmeticCodes/DP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
