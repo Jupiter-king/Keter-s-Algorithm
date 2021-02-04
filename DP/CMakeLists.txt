@@ -8,4 +8,6 @@ add_executable(coin_change coin_change.cpp)
 add_executable(lengthOfLIS lengthOfLIS.cpp)
 add_executable(EditDistance EditDistance.cpp)
 add_executable(superEggDrop superEggDrop.cpp)
+add_executable(longestPalindromeSubseq longestPalindromeSubseq.cpp)
+add_executable(stoneGame stoneGame.cpp)
 

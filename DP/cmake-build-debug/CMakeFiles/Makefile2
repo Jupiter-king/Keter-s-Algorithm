@@ -73,6 +73,8 @@ CMAKE_BINARY_DIR = /Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/stoneGame.dir/all
+all: CMakeFiles/longestPalindromeSubseq.dir/all
 all: CMakeFiles/superEggDrop.dir/all
 all: CMakeFiles/lengthOfLIS.dir/all
 all: CMakeFiles/coin_change.dir/all
@@ -87,6 +89,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/stoneGame.dir/clean
+clean: CMakeFiles/longestPalindromeSubseq.dir/clean
 clean: CMakeFiles/superEggDrop.dir/clean
 clean: CMakeFiles/lengthOfLIS.dir/clean
 clean: CMakeFiles/coin_change.dir/clean
@@ -96,13 +100,67 @@ clean: CMakeFiles/fab.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/stoneGame.dir
+
+# All Build rule for target.
+CMakeFiles/stoneGame.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target stoneGame"
+.PHONY : CMakeFiles/stoneGame.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stoneGame.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stoneGame.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stoneGame.dir/rule
+
+# Convenience name for target.
+stoneGame: CMakeFiles/stoneGame.dir/rule
+
+.PHONY : stoneGame
+
+# clean rule for target.
+CMakeFiles/stoneGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/clean
+.PHONY : CMakeFiles/stoneGame.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/longestPalindromeSubseq.dir
+
+# All Build rule for target.
+CMakeFiles/longestPalindromeSubseq.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target longestPalindromeSubseq"
+.PHONY : CMakeFiles/longestPalindromeSubseq.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/longestPalindromeSubseq.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/longestPalindromeSubseq.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/longestPalindromeSubseq.dir/rule
+
+# Convenience name for target.
+longestPalindromeSubseq: CMakeFiles/longestPalindromeSubseq.dir/rule
+
+.PHONY : longestPalindromeSubseq
+
+# clean rule for target.
+CMakeFiles/longestPalindromeSubseq.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/clean
+.PHONY : CMakeFiles/longestPalindromeSubseq.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/superEggDrop.dir
 
 # All Build rule for target.
 CMakeFiles/superEggDrop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/superEggDrop.dir/build.make CMakeFiles/superEggDrop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/superEggDrop.dir/build.make CMakeFiles/superEggDrop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target superEggDrop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target superEggDrop"
 .PHONY : CMakeFiles/superEggDrop.dir/all
 
 # Build rule for subdir invocation for target.

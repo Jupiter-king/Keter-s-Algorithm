@@ -20,11 +20,13 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DP" targetName="EditDistance" />
       <config projectName="DP" targetName="superEggDrop" />
+      <config projectName="DP" targetName="EditDistance" />
+      <config projectName="DP" targetName="longestPalindromeSubseq" />
       <config projectName="DP" targetName="coin_change" />
       <config projectName="DP" targetName="lengthOfLIS" />
       <config projectName="DP" targetName="fab" />
+      <config projectName="DP" targetName="stoneGame" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,9 +36,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26bc37e7-71f8-4ad5-80b5-36063ceefe10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PAT/A+B_Polynomials/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.README.md.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/superEggDrop.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/superEggDrop.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DP.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superEggDrop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/superEggDrop.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +73,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake Application.superEggDrop">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.stoneGame">
     <configuration name="EditDistance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="EditDistance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="EditDistance">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -97,9 +103,24 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="longestPalindromeSubseq" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="longestPalindromeSubseq" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="longestPalindromeSubseq">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stoneGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="stoneGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="stoneGame">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="superEggDrop" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="superEggDrop" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="superEggDrop">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -107,6 +128,8 @@
       <item itemvalue="CMake Application.EditDistance" />
       <item itemvalue="CMake Application.fab" />
       <item itemvalue="CMake Application.lengthOfLIS" />
+      <item itemvalue="CMake Application.longestPalindromeSubseq" />
+      <item itemvalue="CMake Application.stoneGame" />
       <item itemvalue="CMake Application.superEggDrop" />
     </list>
   </component>
@@ -121,7 +144,8 @@
       <workItem from="1611991881680" duration="8077000" />
       <workItem from="1612056004125" duration="3623000" />
       <workItem from="1612148185075" duration="36000" />
-      <workItem from="1612330096410" duration="4406000" />
+      <workItem from="1612330096410" duration="5282000" />
+      <workItem from="1612415036055" duration="4814000" />
     </task>
     <servers />
   </component>
@@ -141,25 +165,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="318" key="GridCell.Tab.0.bottom" timestamp="1612335002261">
+    <state x="2474" y="160" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612419025884">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.bottom/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612335002261" />
+    <state x="2474" y="160" key="#com.intellij.fileTypes.FileTypeChooser/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612419025884" />
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom" timestamp="1612423842958">
+      <screen x="1792" y="-173" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842958" />
     <state width="1878" height="217" key="GridCell.Tab.0.bottom/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206887" />
-    <state width="1878" height="318" key="GridCell.Tab.0.center" timestamp="1612335002260">
+    <state width="1878" height="318" key="GridCell.Tab.0.center" timestamp="1612423842957">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.center/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612335002260" />
+    <state width="1878" height="318" key="GridCell.Tab.0.center/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842957" />
     <state width="1878" height="217" key="GridCell.Tab.0.center/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206886" />
-    <state width="1878" height="318" key="GridCell.Tab.0.left" timestamp="1612335002260">
+    <state width="1878" height="318" key="GridCell.Tab.0.left" timestamp="1612423842957">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.left/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612335002260" />
+    <state width="1878" height="318" key="GridCell.Tab.0.left/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842957" />
     <state width="1878" height="217" key="GridCell.Tab.0.left/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206885" />
-    <state width="1878" height="318" key="GridCell.Tab.0.right" timestamp="1612335002261">
+    <state width="1878" height="318" key="GridCell.Tab.0.right" timestamp="1612423842957">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.right/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612335002261" />
+    <state width="1878" height="318" key="GridCell.Tab.0.right/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842957" />
     <state width="1878" height="217" key="GridCell.Tab.0.right/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206886" />
     <state width="1878" height="418" key="GridCell.Tab.1.bottom" timestamp="1612022935935">
       <screen x="1792" y="-173" width="1920" height="1055" />

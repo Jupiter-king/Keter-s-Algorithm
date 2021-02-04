@@ -20,6 +20,7 @@ introduce{动态规划算法学习}
 
 ## 动态规划框架
 
+- [x] 最基本框架
 ```python
 # 初始化 base case
 dp[0][0][...] = base
@@ -30,4 +31,64 @@ for 状态1 in 状态1的所有取值：
             dp[状态1][状态2][...] = 求最值(选择1，选择2...)
 ```
 
+- [x] 最短子序列的模版
 
+模版来自力扣中的一道题目：[https://leetcode-cn.com/problems/longest-palindromic-subsequence/submissions/](https://leetcode-cn.com/problems/longest-palindromic-subsequence/submissions/)
+
+```c++
+int longestPalindromeSubseq(string s) {
+    vector<vector<int>> dp(s.length(), vector<int>(s.length(), 0));
+    // base case
+    for (int i = 0; i < s.length(); ++i) {
+        dp[i][i] = 1;
+    }
+    for (int i = s.length() - 1; i >= 0; i--) {
+        for (int j = i + 1; j < s.length(); j++) {
+            if (s[i] == s[j])
+                dp[i][j] = dp[i + 1][j - 1] + 2;
+            else {
+                dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]);
+            }
+        }
+    }
+    return dp[0][s.length() - 1];
+}
+```
+
+- [x] 博弈问题模版
+
+模版来源于力扣的一道题目：[https://leetcode-cn.com/problems/stone-game/submissions/](https://leetcode-cn.com/problems/stone-game/submissions/)
+
+```c++
+bool stoneGame(vector<int> &piles) {
+    // 创建dp二维数组
+    pair<int, int> base(0, 0);
+    vector<vector<pair<int, int>>> dp(piles.size(), vector<pair<int, int>>(piles.size(), base));
+    // base case
+    for (int i = 0; i < piles.size(); ++i) {
+        dp[i][i] = pair<int, int>(piles[i], 0);
+    }
+    // 斜着遍历数组
+    for (int l = 2; l <= piles.size(); ++l) {
+        for (int i = 0; i <= piles.size() - l; ++i) {
+            int j = l + i - 1;
+            // 先手选择左边
+            int left = piles[i] + dp[i + 1][j].second;
+            // 先手选择右边
+            int right = piles[j] + dp[i][j - 1].second;
+            // 套入状态转化方程
+            if (left > right) {
+                dp[i][j].first = left;
+                dp[i][j].second = dp[i+1][j].first;
+            } else{
+                dp[i][j].first = right;
+                dp[i][j].second = dp[i][j-1].first;
+            }
+        }
+    }
+    if ((dp[0][piles.size()-1].first-dp[0][piles.size()-1].second) > 0)
+        return true;
+    else
+        return false;
+}
+``` 

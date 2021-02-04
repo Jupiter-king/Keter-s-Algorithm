@@ -52,6 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/stoneGame.dir/DependInfo.cmake"
+  "CMakeFiles/longestPalindromeSubseq.dir/DependInfo.cmake"
   "CMakeFiles/superEggDrop.dir/DependInfo.cmake"
   "CMakeFiles/lengthOfLIS.dir/DependInfo.cmake"
   "CMakeFiles/coin_change.dir/DependInfo.cmake"

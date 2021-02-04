@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/keter/Documents/arithmeticCodes/DP/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named stoneGame
+
+# Build rule for target.
+stoneGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stoneGame
+.PHONY : stoneGame
+
+# fast build rule for target.
+stoneGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/build
+.PHONY : stoneGame/fast
+
+#=============================================================================
+# Target rules for targets named longestPalindromeSubseq
+
+# Build rule for target.
+longestPalindromeSubseq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 longestPalindromeSubseq
+.PHONY : longestPalindromeSubseq
+
+# fast build rule for target.
+longestPalindromeSubseq/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/build
+.PHONY : longestPalindromeSubseq/fast
 
 #=============================================================================
 # Target rules for targets named superEggDrop
@@ -303,6 +329,60 @@ lengthOfLIS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLIS.dir/build.make CMakeFiles/lengthOfLIS.dir/lengthOfLIS.cpp.s
 .PHONY : lengthOfLIS.cpp.s
 
+longestPalindromeSubseq.o: longestPalindromeSubseq.cpp.o
+
+.PHONY : longestPalindromeSubseq.o
+
+# target to build an object file
+longestPalindromeSubseq.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/longestPalindromeSubseq.cpp.o
+.PHONY : longestPalindromeSubseq.cpp.o
+
+longestPalindromeSubseq.i: longestPalindromeSubseq.cpp.i
+
+.PHONY : longestPalindromeSubseq.i
+
+# target to preprocess a source file
+longestPalindromeSubseq.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/longestPalindromeSubseq.cpp.i
+.PHONY : longestPalindromeSubseq.cpp.i
+
+longestPalindromeSubseq.s: longestPalindromeSubseq.cpp.s
+
+.PHONY : longestPalindromeSubseq.s
+
+# target to generate assembly for a file
+longestPalindromeSubseq.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestPalindromeSubseq.dir/build.make CMakeFiles/longestPalindromeSubseq.dir/longestPalindromeSubseq.cpp.s
+.PHONY : longestPalindromeSubseq.cpp.s
+
+stoneGame.o: stoneGame.cpp.o
+
+.PHONY : stoneGame.o
+
+# target to build an object file
+stoneGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/stoneGame.cpp.o
+.PHONY : stoneGame.cpp.o
+
+stoneGame.i: stoneGame.cpp.i
+
+.PHONY : stoneGame.i
+
+# target to preprocess a source file
+stoneGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/stoneGame.cpp.i
+.PHONY : stoneGame.cpp.i
+
+stoneGame.s: stoneGame.cpp.s
+
+.PHONY : stoneGame.s
+
+# target to generate assembly for a file
+stoneGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stoneGame.dir/build.make CMakeFiles/stoneGame.dir/stoneGame.cpp.s
+.PHONY : stoneGame.cpp.s
+
 superEggDrop.o: superEggDrop.cpp.o
 
 .PHONY : superEggDrop.o
@@ -342,6 +422,8 @@ help:
 	@echo "... coin_change"
 	@echo "... fab"
 	@echo "... lengthOfLIS"
+	@echo "... longestPalindromeSubseq"
+	@echo "... stoneGame"
 	@echo "... superEggDrop"
 	@echo "... EditDistance.o"
 	@echo "... EditDistance.i"
@@ -355,6 +437,12 @@ help:
 	@echo "... lengthOfLIS.o"
 	@echo "... lengthOfLIS.i"
 	@echo "... lengthOfLIS.s"
+	@echo "... longestPalindromeSubseq.o"
+	@echo "... longestPalindromeSubseq.i"
+	@echo "... longestPalindromeSubseq.s"
+	@echo "... stoneGame.o"
+	@echo "... stoneGame.i"
+	@echo "... stoneGame.s"
 	@echo "... superEggDrop.o"
 	@echo "... superEggDrop.i"
 	@echo "... superEggDrop.s"
