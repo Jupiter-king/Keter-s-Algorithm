@@ -92,3 +92,18 @@ bool stoneGame(vector<int> &piles) {
         return false;
 }
 ``` 
+
+- [x] 贪心算法之区间调度问题
+
+什么是贪心算法呢？贪心算法可以认为是动态规划算法的一个特例，相比动态规划，使用贪心算法需要满足更多的条件（贪心选择性质），但是效率比动态规划要高。
+
+比如说一个算法问题使用暴力解法需要指数级时间，如果能使用动态规划消除重叠子问题，就可以降到多项式级别的时间，如果满足贪心选择性质，那么可以进一步降低时间复杂度，达到线性级别的。
+
+力扣中可刷的题：
+
+[435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)
+
+[452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons)
+
+两道题的思路可以说是一摸一样的；
+

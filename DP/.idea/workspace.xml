@@ -20,9 +20,10 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DP" targetName="superEggDrop" />
+      <config projectName="DP" targetName="eraseOverlapIntervals" />
       <config projectName="DP" targetName="EditDistance" />
       <config projectName="DP" targetName="longestPalindromeSubseq" />
+      <config projectName="DP" targetName="superEggDrop" />
       <config projectName="DP" targetName="coin_change" />
       <config projectName="DP" targetName="lengthOfLIS" />
       <config projectName="DP" targetName="fab" />
@@ -42,11 +43,15 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fab.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fab.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lengthOfLIS.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lengthOfLIS.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/longestPalindromeSubseq.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/longestPalindromeSubseq.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stoneGame.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stoneGame.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/superEggDrop.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/superEggDrop.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DP.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superEggDrop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/superEggDrop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stoneGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stoneGame.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,18 +82,23 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake Application.stoneGame">
+  <component name="RunManager" selected="CMake Application.eraseOverlapIntervals">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EditDistance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="EditDistance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="EditDistance">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="coin_change" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="coin_change" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="coin_change">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coin_change" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="coin_change" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="coin_change">
+    <configuration name="eraseOverlapIntervals" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DP" TARGET_NAME="eraseOverlapIntervals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DP" RUN_TARGET_NAME="eraseOverlapIntervals">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -126,6 +136,7 @@
     <list>
       <item itemvalue="CMake Application.coin_change" />
       <item itemvalue="CMake Application.EditDistance" />
+      <item itemvalue="CMake Application.eraseOverlapIntervals" />
       <item itemvalue="CMake Application.fab" />
       <item itemvalue="CMake Application.lengthOfLIS" />
       <item itemvalue="CMake Application.longestPalindromeSubseq" />
@@ -145,7 +156,8 @@
       <workItem from="1612056004125" duration="3623000" />
       <workItem from="1612148185075" duration="36000" />
       <workItem from="1612330096410" duration="5282000" />
-      <workItem from="1612415036055" duration="4814000" />
+      <workItem from="1612415036055" duration="7868000" />
+      <workItem from="1612616601801" duration="3663000" />
     </task>
     <servers />
   </component>
@@ -169,42 +181,42 @@
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
     <state x="2474" y="160" key="#com.intellij.fileTypes.FileTypeChooser/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612419025884" />
-    <state width="1878" height="318" key="GridCell.Tab.0.bottom" timestamp="1612423842958">
+    <state width="1878" height="327" key="GridCell.Tab.0.bottom" timestamp="1612620172337">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.bottom/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842958" />
+    <state width="1878" height="327" key="GridCell.Tab.0.bottom/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620172337" />
     <state width="1878" height="217" key="GridCell.Tab.0.bottom/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206887" />
-    <state width="1878" height="318" key="GridCell.Tab.0.center" timestamp="1612423842957">
+    <state width="1878" height="327" key="GridCell.Tab.0.center" timestamp="1612620172336">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.center/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842957" />
+    <state width="1878" height="327" key="GridCell.Tab.0.center/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620172336" />
     <state width="1878" height="217" key="GridCell.Tab.0.center/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206886" />
-    <state width="1878" height="318" key="GridCell.Tab.0.left" timestamp="1612423842957">
+    <state width="1878" height="327" key="GridCell.Tab.0.left" timestamp="1612620172335">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.left/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842957" />
+    <state width="1878" height="327" key="GridCell.Tab.0.left/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620172335" />
     <state width="1878" height="217" key="GridCell.Tab.0.left/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206885" />
-    <state width="1878" height="318" key="GridCell.Tab.0.right" timestamp="1612423842957">
+    <state width="1878" height="327" key="GridCell.Tab.0.right" timestamp="1612620172336">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="318" key="GridCell.Tab.0.right/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612423842957" />
+    <state width="1878" height="327" key="GridCell.Tab.0.right/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620172336" />
     <state width="1878" height="217" key="GridCell.Tab.0.right/1792.25.1920.1055/2175.1105.1024.743/0.25.1792.1095@1792.25.1920.1055" timestamp="1612060206886" />
-    <state width="1878" height="418" key="GridCell.Tab.1.bottom" timestamp="1612022935935">
+    <state width="1878" height="273" key="GridCell.Tab.1.bottom" timestamp="1612620038991">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="418" key="GridCell.Tab.1.bottom/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612022935935" />
-    <state width="1878" height="418" key="GridCell.Tab.1.center" timestamp="1612022935935">
+    <state width="1878" height="273" key="GridCell.Tab.1.bottom/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620038991" />
+    <state width="1878" height="273" key="GridCell.Tab.1.center" timestamp="1612620038990">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="418" key="GridCell.Tab.1.center/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612022935935" />
-    <state width="1878" height="418" key="GridCell.Tab.1.left" timestamp="1612022935935">
+    <state width="1878" height="273" key="GridCell.Tab.1.center/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620038990" />
+    <state width="1878" height="273" key="GridCell.Tab.1.left" timestamp="1612620038990">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="418" key="GridCell.Tab.1.left/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612022935935" />
-    <state width="1878" height="418" key="GridCell.Tab.1.right" timestamp="1612022935935">
+    <state width="1878" height="273" key="GridCell.Tab.1.left/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620038990" />
+    <state width="1878" height="273" key="GridCell.Tab.1.right" timestamp="1612620038991">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
-    <state width="1878" height="418" key="GridCell.Tab.1.right/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612022935935" />
+    <state width="1878" height="273" key="GridCell.Tab.1.right/1792.-173.1920.1055/0.25.1792.1095@1792.-173.1920.1055" timestamp="1612620038991" />
     <state x="2261" y="-10" key="SettingsEditor" timestamp="1612331093411">
       <screen x="1792" y="-173" width="1920" height="1055" />
     </state>
