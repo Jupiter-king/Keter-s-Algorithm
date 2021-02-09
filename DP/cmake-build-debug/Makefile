@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named KMP
+
+# Build rule for target.
+KMP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KMP
+.PHONY : KMP
+
+# fast build rule for target.
+KMP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/build
+.PHONY : KMP/fast
+
+#=============================================================================
 # Target rules for targets named stoneGame
 
 # Build rule for target.
@@ -260,6 +273,33 @@ EditDistance.s: EditDistance.cpp.s
 EditDistance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EditDistance.dir/build.make CMakeFiles/EditDistance.dir/EditDistance.cpp.s
 .PHONY : EditDistance.cpp.s
+
+KMP.o: KMP.cpp.o
+
+.PHONY : KMP.o
+
+# target to build an object file
+KMP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/KMP.cpp.o
+.PHONY : KMP.cpp.o
+
+KMP.i: KMP.cpp.i
+
+.PHONY : KMP.i
+
+# target to preprocess a source file
+KMP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/KMP.cpp.i
+.PHONY : KMP.cpp.i
+
+KMP.s: KMP.cpp.s
+
+.PHONY : KMP.s
+
+# target to generate assembly for a file
+KMP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/KMP.cpp.s
+.PHONY : KMP.cpp.s
 
 coin_change.o: coin_change.cpp.o
 
@@ -459,6 +499,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EditDistance"
+	@echo "... KMP"
 	@echo "... coin_change"
 	@echo "... eraseOverlapIntervals"
 	@echo "... fab"
@@ -469,6 +510,9 @@ help:
 	@echo "... EditDistance.o"
 	@echo "... EditDistance.i"
 	@echo "... EditDistance.s"
+	@echo "... KMP.o"
+	@echo "... KMP.i"
+	@echo "... KMP.s"
 	@echo "... coin_change.o"
 	@echo "... coin_change.i"
 	@echo "... coin_change.s"

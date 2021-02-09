@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/keter/Documents/arithmeticCodes/DP/KMP.cpp
+iostream
+-
+string
+-
+algorithm
+-
+cstring
+-
+

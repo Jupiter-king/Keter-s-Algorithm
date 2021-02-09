@@ -11,4 +11,5 @@ add_executable(superEggDrop superEggDrop.cpp)
 add_executable(longestPalindromeSubseq longestPalindromeSubseq.cpp)
 add_executable(stoneGame stoneGame.cpp)
 add_executable(eraseOverlapIntervals eraseOverlapIntervals.cpp)
+add_executable(KMP KMP.cpp)
 
